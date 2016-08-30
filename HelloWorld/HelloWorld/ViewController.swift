@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     @IBAction func buttonPress(sender: AnyObject) {
-        
+     label.text="Hello World!"
     }
 
 }
