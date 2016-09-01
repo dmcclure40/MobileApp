@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,31 +19,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leonardo da Vinci" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuY-LG-a2P">
-                                <rect key="frame" x="228" y="28" width="145" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leonardo da Vinci" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuY-LG-a2P">
+                                <rect key="frame" x="220" y="33" width="138" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqn-hc-KQh">
-                                <rect key="frame" x="453" y="62" width="67" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqn-hc-KQh">
+                                <rect key="frame" x="456" y="62" width="64" height="30"/>
                                 <state key="normal" title="Drawings"/>
                                 <connections>
                                     <action selector="choseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSm-TL-hNw"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daVinci" translatesAutoresizingMaskIntoConstraints="NO" id="g5y-ri-UB4">
-                                <rect key="frame" x="80" y="106" width="440" height="598"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nw-IA-jPi">
-                                <rect key="frame" x="80" y="62" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nw-IA-jPi">
+                                <rect key="frame" x="80" y="62" width="63" height="30"/>
                                 <state key="normal" title="Paintings"/>
                                 <connections>
                                     <action selector="choseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVq-0y-Yvs"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daVinci" translatesAutoresizingMaskIntoConstraints="NO" id="g5y-ri-UB4">
+                                <rect key="frame" x="80" y="106" width="440" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g5y-ri-UB4" secondAttribute="height" multiplier="88:91" priority="750" id="kYQ-1W-zVm"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g5y-ri-UB4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="1gc-nO-YOS"/>
+                            <constraint firstItem="g5y-ri-UB4" firstAttribute="top" secondItem="KuY-LG-a2P" secondAttribute="bottom" constant="52" id="6YC-c4-gVy"/>
+                            <constraint firstItem="g5y-ri-UB4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Arn-M2-Lrd"/>
+                            <constraint firstItem="KuY-LG-a2P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="F1P-1W-1Ic"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g5y-ri-UB4" secondAttribute="trailing" constant="60" id="GCX-fU-Ijw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wqn-hc-KQh" secondAttribute="trailing" constant="60" id="Lxx-dL-Htw"/>
+                            <constraint firstItem="KuY-LG-a2P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11" id="SyO-v7-Fg0"/>
+                            <constraint firstItem="wqn-hc-KQh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="YVX-3o-mst"/>
+                            <constraint firstItem="2nw-IA-jPi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="etF-FR-JZ9"/>
+                            <constraint firstItem="KuY-LG-a2P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11" id="hST-Ek-R78"/>
+                            <constraint firstItem="2nw-IA-jPi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="o0v-0n-DrS"/>
+                            <constraint firstItem="g5y-ri-UB4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" priority="750" id="s6X-bh-a5e"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="artImage" destination="g5y-ri-UB4" id="O1B-vF-LdQ"/>
