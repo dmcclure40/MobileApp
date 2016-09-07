@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-cf-4fh">
+                                <rect key="frame" x="20" y="122" width="73" height="30"/>
+                                <state key="normal" title="Raid"/>
+                                <connections>
+                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ppv-kZ-h1d"/>
+                                    <action selector="selectDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjn-8q-QeP"/>
+                                    <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDf-oH-sK3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ng-6c-xog">
+                                <rect key="frame" x="20" y="247" width="73" height="30"/>
+                                <state key="normal" title="Enemy"/>
+                                <connections>
+                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y08-jw-Wup"/>
+                                    <action selector="selectDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qrt-Vl-63l"/>
+                                    <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IrX-Gk-1Ld"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jee-ph-92w">
+                                <rect key="frame" x="20" y="372" width="73" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Archon Forge"/>
+                                <connections>
+                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wzi-x7-bdw"/>
+                                    <action selector="selectDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZD-qz-aFU"/>
+                                    <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J35-Ql-Kv0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob5-Fg-UyI">
+                                <rect key="frame" x="217" y="73" width="274" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="fLh-5M-PFu">
+                                <rect key="frame" x="128" y="122" width="452" height="280"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Destiny Rise Of Iron" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-H2-PWC">
+                                <rect key="frame" x="217" y="20" width="274" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joE-mu-sSn">
+                                <rect key="frame" x="20" y="433" width="560" height="107"/>
+                                <string key="text">Rise of Iron is the latest DLC for Destiny and will be released on September 20th. It will feature a new story, social space, Raid, a variant of the fallem enemies, new maps and game types for the crucible and a new horde mode arena as well as new armor and wepons and much more. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="artImage" destination="fLh-5M-PFu" id="OC2-en-Moe"/>
+                        <outlet property="details" destination="joE-mu-sSn" id="q4v-78-L0g"/>
+                        <outlet property="imageTitle" destination="Ob5-Fg-UyI" id="P8t-xd-Oxj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="overview" width="323" height="181"/>
+    </resources>
+</document>
