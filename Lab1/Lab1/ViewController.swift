@@ -20,15 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+   
     @IBOutlet weak var artImage: UIImageView!
     
     
     @IBAction func imageSelect(sender: UIButton) {
         if sender.currentTitle=="Raid"{
-            artImage.image=UIImage(named: "raid.jpg")
+            artImage.image=UIImage(named: "raid.jpg" )
         }
         else if sender.currentTitle=="Enemy"{
-            artImage.image=UIImage(named: "enemy.jpg")
+            artImage.image=UIImage(named: "enemy.png")
         }
         else if sender.currentTitle=="Arena"{
             artImage.image=UIImage(named: "archons forge.jpg")

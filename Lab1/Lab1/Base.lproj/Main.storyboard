@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -22,8 +22,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob5-Fg-UyI">
                                 <rect key="frame" x="217" y="153" width="274" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="R6y-5W-MqI"/>
-                                    <constraint firstAttribute="width" constant="274" id="oCq-K1-yVb"/>
+                                    <constraint firstAttribute="width" constant="274" id="Hxh-vf-JBY"/>
+                                    <constraint firstAttribute="height" constant="32" id="dFZ-Dc-rdp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -35,30 +35,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joE-mu-sSn">
-                                <rect key="frame" x="20" y="430" width="560" height="141"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="joE-mu-sSn" secondAttribute="height" multiplier="560:141" id="IGH-We-Avw"/>
-                                    <constraint firstAttribute="height" constant="141" id="qSc-tB-V14"/>
-                                    <constraint firstAttribute="width" constant="560" id="v5c-DY-GgR"/>
-                                </constraints>
-                                <string key="text">Rise of Iron is the latest DLC for Destiny and will be released on September 20th. It will feature a new story, social space, Raid, a variant of the fallem enemies, new maps and game types for the crucible and a new horde mode arena as well as new armor and wepons and much more. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="IGH-We-Avw"/>
-                                    </mask>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ng-6c-xog">
-                                <rect key="frame" x="20" y="230" width="55" height="34"/>
+                                <rect key="frame" x="20" y="283" width="84" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="2dA-C0-mM7"/>
-                                    <constraint firstAttribute="width" constant="55" id="D8q-gX-pFK"/>
-                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Enemy"/>
                                 <connections>
@@ -68,11 +47,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-cf-4fh">
-                                <rect key="frame" x="20" y="143" width="55" height="34"/>
+                                <rect key="frame" x="20" y="199" width="84" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="8WL-7S-DIH"/>
-                                    <constraint firstAttribute="width" constant="55" id="U5k-HP-HfP"/>
+                                    <constraint firstAttribute="width" constant="84" id="n7N-Jx-U5V"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Raid"/>
@@ -83,12 +61,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jee-ph-92w">
-                                <rect key="frame" x="20" y="318" width="55" height="34"/>
+                                <rect key="frame" x="20" y="366" width="84" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="55" id="hD3-9l-Adj"/>
-                                    <constraint firstAttribute="height" constant="34" id="msD-bQ-zLu"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
@@ -101,60 +75,63 @@
                                     <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J35-Ql-Kv0"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="fLh-5M-PFu">
-                                <rect key="frame" x="257" y="203" width="323" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="VAs-xB-tZg">
+                                <rect key="frame" x="200" y="199" width="380" height="201"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="joE-mu-sSn">
+                                <rect key="frame" x="20" y="403" width="560" height="177"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="fLh-5M-PFu" secondAttribute="height" multiplier="113:70" id="4JT-8h-Udl"/>
-                                    <constraint firstAttribute="width" secondItem="fLh-5M-PFu" secondAttribute="height" multiplier="113:70" id="6is-KS-dTM"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" priority="750" constant="280" id="8MC-W6-Vwt"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="452" id="AVt-1Y-4Z5"/>
+                                    <constraint firstAttribute="width" secondItem="joE-mu-sSn" secondAttribute="height" multiplier="560:141" id="IGH-We-Avw"/>
                                 </constraints>
+                                <string key="text">Rise of Iron is the latest DLC for Destiny and will be released on September 20th. It will feature a new story, social space, Raid, a variant of the fallem enemies, new maps and game types for the crucible and a new horde mode arena as well as new armor and wepons and much more. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="4JT-8h-Udl"/>
+                                        <exclude reference="IGH-We-Avw"/>
                                     </mask>
                                 </variation>
-                            </imageView>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jee-ph-92w" firstAttribute="top" secondItem="9ng-6c-xog" secondAttribute="bottom" constant="54" id="1Pq-K6-jre"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="08X-zt-xZy"/>
                             <constraint firstItem="joE-mu-sSn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2We-RN-DOF"/>
-                            <constraint firstItem="fLh-5M-PFu" firstAttribute="top" secondItem="Ob5-Fg-UyI" secondAttribute="bottom" constant="18" id="4mt-g0-buc"/>
-                            <constraint firstItem="fLh-5M-PFu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7LN-NI-D5k"/>
-                            <constraint firstItem="Ob5-Fg-UyI" firstAttribute="top" secondItem="Khg-H2-PWC" secondAttribute="bottom" constant="8" id="7cX-DN-Uuq"/>
-                            <constraint firstItem="gbt-cf-4fh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9Bh-5x-zT5"/>
-                            <constraint firstItem="joE-mu-sSn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BPt-jP-XHh"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="jee-ph-92w" secondAttribute="bottom" constant="3" id="4Yu-Oo-MNh"/>
+                            <constraint firstItem="Ob5-Fg-UyI" firstAttribute="top" secondItem="Khg-H2-PWC" secondAttribute="bottom" constant="8" symbolic="YES" id="B4A-9s-dBP"/>
                             <constraint firstItem="Khg-H2-PWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="F78-0h-VoM"/>
-                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="27" id="GJp-dJ-XId"/>
-                            <constraint firstItem="9ng-6c-xog" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Kk5-UJ-Jk2"/>
-                            <constraint firstItem="fLh-5M-PFu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NNA-ET-dzr"/>
-                            <constraint firstItem="jee-ph-92w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QDp-NQ-Mr1"/>
-                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="31" id="REN-na-nl9"/>
-                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="27" id="TtT-Zm-pZi"/>
-                            <constraint firstItem="Khg-H2-PWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="U0R-H3-BzL"/>
+                            <constraint firstItem="Khg-H2-PWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IVq-lF-Ait"/>
+                            <constraint firstItem="jee-ph-92w" firstAttribute="bottom" secondItem="VAs-xB-tZg" secondAttribute="bottom" id="NcP-2W-XWr"/>
+                            <constraint firstItem="jee-ph-92w" firstAttribute="top" secondItem="9ng-6c-xog" secondAttribute="bottom" constant="49" id="VSh-lH-OUG"/>
+                            <constraint firstItem="Khg-H2-PWC" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="201" id="XeS-8a-GID"/>
+                            <constraint firstItem="Khg-H2-PWC" firstAttribute="trailing" secondItem="Ob5-Fg-UyI" secondAttribute="trailing" id="aYa-la-dNL"/>
+                            <constraint firstItem="VAs-xB-tZg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cvU-e0-DNy"/>
                             <constraint firstItem="joE-mu-sSn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eKE-10-vcX"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="joE-mu-sSn" secondAttribute="bottom" constant="29" id="gzo-dO-qif"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ob5-Fg-UyI" secondAttribute="trailing" constant="89" id="hXT-bu-kUc"/>
-                            <constraint firstItem="9ng-6c-xog" firstAttribute="top" secondItem="gbt-cf-4fh" secondAttribute="bottom" constant="53" id="jKk-zX-Aju"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Khg-H2-PWC" secondAttribute="trailing" constant="89" id="qON-5r-G1I"/>
-                            <constraint firstItem="gbt-cf-4fh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="xDH-Pf-f5y"/>
-                            <constraint firstItem="fLh-5M-PFu" firstAttribute="top" secondItem="Ob5-Fg-UyI" secondAttribute="bottom" constant="18" id="ztN-Nn-ZdQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="joE-mu-sSn" secondAttribute="bottom" constant="20" id="eq9-Bg-tb0"/>
+                            <constraint firstItem="VAs-xB-tZg" firstAttribute="top" secondItem="Ob5-Fg-UyI" secondAttribute="bottom" constant="14" id="ifu-iU-jAZ"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jQ7-3P-dG2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Khg-H2-PWC" secondAttribute="trailing" constant="89" id="jQo-Ex-W9S"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="top" secondItem="VAs-xB-tZg" secondAttribute="top" id="jd9-q6-G5s"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="centerY" secondItem="VAs-xB-tZg" secondAttribute="centerY" id="ktz-gV-nmp"/>
+                            <constraint firstItem="jee-ph-92w" firstAttribute="leading" secondItem="joE-mu-sSn" secondAttribute="leading" id="lLv-f0-IWU"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="trailing" secondItem="9ng-6c-xog" secondAttribute="trailing" id="p39-RD-5oA"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="leading" secondItem="9ng-6c-xog" secondAttribute="leading" id="qCe-DX-F39"/>
+                            <constraint firstItem="VAs-xB-tZg" firstAttribute="leading" secondItem="gbt-cf-4fh" secondAttribute="trailing" constant="96" id="qhb-UJ-tBz"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="trailing" secondItem="jee-ph-92w" secondAttribute="trailing" id="sEq-6X-1pa"/>
+                            <constraint firstItem="VAs-xB-tZg" firstAttribute="trailing" secondItem="joE-mu-sSn" secondAttribute="trailing" id="vzT-5W-O0l"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="leading" secondItem="jee-ph-92w" secondAttribute="leading" id="xKr-4H-Gcb"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="4mt-g0-buc"/>
-                                <exclude reference="NNA-ET-dzr"/>
                                 <exclude reference="F78-0h-VoM"/>
                                 <exclude reference="2We-RN-DOF"/>
-                                <exclude reference="GJp-dJ-XId"/>
-                                <exclude reference="REN-na-nl9"/>
                                 <exclude reference="eKE-10-vcX"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="artImage" destination="fLh-5M-PFu" id="OC2-en-Moe"/>
+                        <outlet property="artImage" destination="VAs-xB-tZg" id="Zty-pK-Yb5"/>
                         <outlet property="details" destination="joE-mu-sSn" id="q4v-78-L0g"/>
                         <outlet property="imageTitle" destination="Ob5-Fg-UyI" id="P8t-xd-Oxj"/>
                     </connections>
@@ -165,6 +142,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="overview" width="323" height="181"/>
+        <image name="overview" width="326" height="166"/>
     </resources>
 </document>
