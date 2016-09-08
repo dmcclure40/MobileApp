@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,20 +19,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-cf-4fh">
-                                <rect key="frame" x="20" y="122" width="73" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob5-Fg-UyI">
+                                <rect key="frame" x="217" y="153" width="274" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="R6y-5W-MqI"/>
+                                    <constraint firstAttribute="width" constant="274" id="oCq-K1-yVb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destiny Rise Of Iron" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-H2-PWC">
+                                <rect key="frame" x="221" y="20" width="270" height="125"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joE-mu-sSn">
+                                <rect key="frame" x="20" y="430" width="560" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="joE-mu-sSn" secondAttribute="height" multiplier="560:141" id="IGH-We-Avw"/>
+                                    <constraint firstAttribute="height" constant="141" id="qSc-tB-V14"/>
+                                    <constraint firstAttribute="width" constant="560" id="v5c-DY-GgR"/>
+                                </constraints>
+                                <string key="text">Rise of Iron is the latest DLC for Destiny and will be released on September 20th. It will feature a new story, social space, Raid, a variant of the fallem enemies, new maps and game types for the crucible and a new horde mode arena as well as new armor and wepons and much more. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="IGH-We-Avw"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ng-6c-xog">
+                                <rect key="frame" x="20" y="230" width="55" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Raid"/>
-                                <connections>
-                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ppv-kZ-h1d"/>
-                                    <action selector="selectDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjn-8q-QeP"/>
-                                    <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDf-oH-sK3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ng-6c-xog">
-                                <rect key="frame" x="20" y="247" width="73" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="2dA-C0-mM7"/>
+                                    <constraint firstAttribute="width" constant="55" id="D8q-gX-pFK"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Enemy"/>
                                 <connections>
@@ -39,9 +67,28 @@
                                     <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IrX-Gk-1Ld"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jee-ph-92w">
-                                <rect key="frame" x="20" y="372" width="73" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-cf-4fh">
+                                <rect key="frame" x="20" y="143" width="55" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8WL-7S-DIH"/>
+                                    <constraint firstAttribute="width" constant="55" id="U5k-HP-HfP"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Raid"/>
+                                <connections>
+                                    <action selector="imageSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ppv-kZ-h1d"/>
+                                    <action selector="selectDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjn-8q-QeP"/>
+                                    <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDf-oH-sK3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jee-ph-92w">
+                                <rect key="frame" x="20" y="318" width="55" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="hD3-9l-Adj"/>
+                                    <constraint firstAttribute="height" constant="34" id="msD-bQ-zLu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
@@ -54,30 +101,57 @@
                                     <action selector="selectTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J35-Ql-Kv0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob5-Fg-UyI">
-                                <rect key="frame" x="217" y="73" width="274" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="fLh-5M-PFu">
-                                <rect key="frame" x="128" y="122" width="452" height="280"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="fLh-5M-PFu">
+                                <rect key="frame" x="257" y="203" width="323" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fLh-5M-PFu" secondAttribute="height" multiplier="113:70" id="4JT-8h-Udl"/>
+                                    <constraint firstAttribute="width" secondItem="fLh-5M-PFu" secondAttribute="height" multiplier="113:70" id="6is-KS-dTM"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" priority="750" constant="280" id="8MC-W6-Vwt"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="452" id="AVt-1Y-4Z5"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4JT-8h-Udl"/>
+                                    </mask>
+                                </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Destiny Rise Of Iron" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-H2-PWC">
-                                <rect key="frame" x="217" y="20" width="274" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joE-mu-sSn">
-                                <rect key="frame" x="20" y="433" width="560" height="147"/>
-                                <string key="text">Rise of Iron is the latest DLC for Destiny and will be released on September 20th. It will feature a new story, social space, Raid, a variant of the fallem enemies, new maps and game types for the crucible and a new horde mode arena as well as new armor and wepons and much more. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jee-ph-92w" firstAttribute="top" secondItem="9ng-6c-xog" secondAttribute="bottom" constant="54" id="1Pq-K6-jre"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2We-RN-DOF"/>
+                            <constraint firstItem="fLh-5M-PFu" firstAttribute="top" secondItem="Ob5-Fg-UyI" secondAttribute="bottom" constant="18" id="4mt-g0-buc"/>
+                            <constraint firstItem="fLh-5M-PFu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7LN-NI-D5k"/>
+                            <constraint firstItem="Ob5-Fg-UyI" firstAttribute="top" secondItem="Khg-H2-PWC" secondAttribute="bottom" constant="8" id="7cX-DN-Uuq"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9Bh-5x-zT5"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BPt-jP-XHh"/>
+                            <constraint firstItem="Khg-H2-PWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="F78-0h-VoM"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="27" id="GJp-dJ-XId"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Kk5-UJ-Jk2"/>
+                            <constraint firstItem="fLh-5M-PFu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NNA-ET-dzr"/>
+                            <constraint firstItem="jee-ph-92w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QDp-NQ-Mr1"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="31" id="REN-na-nl9"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="top" secondItem="fLh-5M-PFu" secondAttribute="bottom" constant="27" id="TtT-Zm-pZi"/>
+                            <constraint firstItem="Khg-H2-PWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="U0R-H3-BzL"/>
+                            <constraint firstItem="joE-mu-sSn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eKE-10-vcX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="joE-mu-sSn" secondAttribute="bottom" constant="29" id="gzo-dO-qif"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ob5-Fg-UyI" secondAttribute="trailing" constant="89" id="hXT-bu-kUc"/>
+                            <constraint firstItem="9ng-6c-xog" firstAttribute="top" secondItem="gbt-cf-4fh" secondAttribute="bottom" constant="53" id="jKk-zX-Aju"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Khg-H2-PWC" secondAttribute="trailing" constant="89" id="qON-5r-G1I"/>
+                            <constraint firstItem="gbt-cf-4fh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="xDH-Pf-f5y"/>
+                            <constraint firstItem="fLh-5M-PFu" firstAttribute="top" secondItem="Ob5-Fg-UyI" secondAttribute="bottom" constant="18" id="ztN-Nn-ZdQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4mt-g0-buc"/>
+                                <exclude reference="NNA-ET-dzr"/>
+                                <exclude reference="F78-0h-VoM"/>
+                                <exclude reference="2We-RN-DOF"/>
+                                <exclude reference="GJp-dJ-XId"/>
+                                <exclude reference="REN-na-nl9"/>
+                                <exclude reference="eKE-10-vcX"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="artImage" destination="fLh-5M-PFu" id="OC2-en-Moe"/>
@@ -87,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="431"/>
+            <point key="canvasLocation" x="563" y="427"/>
         </scene>
     </scenes>
     <resources>

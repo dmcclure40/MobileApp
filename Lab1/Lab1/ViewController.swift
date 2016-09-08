@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         else if sender.currentTitle=="Enemy"{
             artImage.image=UIImage(named: "enemy.jpg")
         }
-        else if sender.currentTitle=="Archon Forge"{
+        else if sender.currentTitle=="Arena"{
             artImage.image=UIImage(named: "archons forge.jpg")
         }
     }
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         else if sender.currentTitle=="Enemy"{
             imageTitle.text="Devil Splicers"
         }
-        else if sender.currentTitle=="Archon Forge"{
+        else if sender.currentTitle=="Arena"{
             imageTitle.text="Archon's Forge"
         }
     }
