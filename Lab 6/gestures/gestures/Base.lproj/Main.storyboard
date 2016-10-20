@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yoda.png" translatesAutoresizingMaskIntoConstraints="NO" id="2BC-oL-P9J">
+                                <rect key="frame" x="217" y="140" width="167" height="247"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Jjk-jH-vKw" appends="YES" id="Tym-AF-doO"/>
+                                    <outletCollection property="gestureRecognizers" destination="nkL-GK-y2K" appends="YES" id="Dqg-hw-foh"/>
+                                    <outletCollection property="gestureRecognizers" destination="VEa-Op-kmy" appends="YES" id="pTw-zu-j8p"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Jjk-jH-vKw">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="5pO-gI-qzc"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="nkL-GK-y2K">
+                    <connections>
+                        <action selector="handleZoom:" destination="BYZ-38-t0r" id="U0u-DZ-1Ll"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="VEa-Op-kmy">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="EfG-7l-LpK"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="440" y="418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Yoda.png" width="167" height="247"/>
+    </resources>
+</document>
