@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string-array name="classes">
+        <item>Human</item>
+        <item>Awoken</item>
+        <item>Exo</item>
+    </string-array>
+    <string name="appTitle">Destiny Classes</string>
+    <string name="button">Create Guardian</string>
+    <string name="guardian"></string>
+    <string name="toggle_on">Male</string>
+    <string name="toggle_off">Female</string>
+    <string name="race1_radio">Warlock</string>
+    <string name="race2_radio">Hunter</string>
+    <string name="race3_radio">Titan</string>
+</resources>
