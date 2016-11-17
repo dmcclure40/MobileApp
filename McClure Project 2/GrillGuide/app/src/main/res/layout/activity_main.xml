@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.davismcclure.grillguide.MainActivity">
+
+    <Button
+        android:text="@string/chickenButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:id="@+id/chickenButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/steakButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/steakButton"
+        android:layout_below="@+id/hamburgerButton"
+        android:layout_alignLeft="@+id/hamburgerButton"
+        android:layout_alignStart="@+id/hamburgerButton" />
+
+    <Button
+        android:text="@string/veggieButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/veggieButton"
+        android:layout_below="@+id/steakButton"
+        android:layout_alignLeft="@+id/steakButton"
+        android:layout_alignStart="@+id/steakButton" />
+
+    <TextView
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView"
+        android:typeface="normal"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="@string/hamburgerButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/hamburgerButton"
+        android:layout_below="@+id/chickenButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

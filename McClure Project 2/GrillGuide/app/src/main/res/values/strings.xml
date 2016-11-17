@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Grill Guide</string>
+    <string name="chickenButton">Chicken</string>
+    <string name="hamburgerButton">Hamburger</string>
+    <string name="steakButton">Steak</string>
+    <string name="veggieButton">Vegtables</string>
+    <string name="title_activity_chicken">Chicken</string>
+    <string name="chickenTitle">Chicken</string>
+    <string name="veggieTitle">Vegtables</string>
+    <string name="steakTitle">Steak</string>
+    <string name="hamburgerTitle">Hamburger</string>
+    <string name="homeButton">Home</string>
+    <string name="chickenInfo">Chicken Breast, Weight 6 to 8 ounces. Average cooking time is 8 to 12 minutes over medium heat (350 F)</string>
+    <string name="chickenTip">Go easy on the breast. By its nature, breast meat is very mild and delicate in flavor. The last thing you want to do is cook fast, hot, and long over high heat
+        driving all the moisture and flavor out and leaving behind little more than a tasteless, rubbery mass. Grill with just a pinch of patience over direct, medium heat for about 10 minutes and you\'ll
+        be rewarded with juicy, succulent chicken breasts.</string>
+    <string name="veggieInfo">Grilling vegtables can be as easy as just putting them on the grill. You want to make sure hat when slicing your vegtables they are not to thin as tis will cause them to fall through the grill.
+    Another method for grilling vegtables is to use a grill pan or aluminum foil. This will keep them from falling through the grill and is the ideal method for grilling smaller vegtables.
+    When cooking vegtables you want to cook over medium heat about 350 F. Vegtables cooking time is between 12 and 15 minutes. The longer you cook them they will
+    turn crispier. So cook depending on your preference. If cooking on a pan or in foil add oilive oil to prevent them from sticking </string>
+    <string name="steakInfo">The two temperature method is done in five simple steps.  Here is how it goes for a 1\" thick steak.
+Start by grilling at high heat (450° F to 650° F) to sear the steak:
+Grill your steak over high heat for 1 to 2 minutes, then rotate it 45 degrees and cook for about 1 to 2 minutes if your steaks are 1 to 1 1/2 inches thick,2 to 4 more minutes if your steaks are 1 1/2 to 3 inch thick
+Turn your steak over and wait 1 to 2 minutes once again, then Rotate it 45 degrees and grill for another 1 to 2 minutes if your steaks are 1 to 1 1/2 inches thick,
+Then finish bringing it to your desired doneness over medium heat (325° F to 350° F):
+Turn the heat down to medium or move your steak to a cooler part of the grill and cook it for whatever portion of the of the total time shown in below is still left, turning them over half way through.</string>
+    <string name="hamburgerInfo">Prepare your grill for cooking over direct heat at 450 to 650 °F (high heat) you\'ll be grilling your burgers at high heat right above the coals or gas burner.
+    Make a small indent in the middle of each pattie with a press of your thumb. Making a slight dimple in the middle of the patty with your thumb will stop swelling dead in its tracks.
+    Place your patties on the grill directly above the heat source and grill for 3 minutes.  If at all possible, leave the burgers undisturbed for the entire time.
+    Flip your burgers then grill to an internal temperature of 135 to 150° F  about another 5 minutes.  This will give you nice, juicy, MEDIUM done hamburgers with just a hint of pink in the middle.</string>
+</resources>
