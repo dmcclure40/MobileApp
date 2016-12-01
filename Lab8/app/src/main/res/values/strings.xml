@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="title">Tequila Bar Finder</string>
+    <string name="tequila_type">Chose your crowd</string>
+    <string name="button">Find Tequila Bars</string>
+    <string-array name="crowd">
+        <item>popular</item>
+        <item>Fancy</item>
+        <item>mescal</item>
+        <item>top rated</item>
+        <item>variety</item>
+    </string-array>
+    <string name="tequila_image">tequila shots</string>
+    <string name="suggested_tequila">This is your suggested Tequila Bar</string>
+</resources>
