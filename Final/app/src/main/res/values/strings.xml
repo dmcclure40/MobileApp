@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="appTitle">IceCreamShop</string>
+    <string-array name="treatType">
+        <item>Ice Cream</item>
+        <item>Frozen Yogurt</item>
+        <item>Gelato</item>
+    </string-array>
+    <string name="button">Treat YoSelf</string>
+    <string name="treat"></string>
+    <string name="toggle_on">Cup</string>
+    <string name="toggle_off">Cone</string>
+    <string name="flavor1_radio">Death by Chocolatek</string>
+    <string name="flavor2_radio">Salted Caramel</string>
+    <string name="flavor3_radio">Cookies and Cream</string>
+    <string name="sprinkles">Sprinkles</string>
+    <string name="hotFudge">Hot Fudge</string>
+    <string name="nuts">Nuts</string>
+    <string name="findCreation">Find Creation</string>
+    <string name="suggested_iceCream">This is your suggested Ice Cream shop</string>
+</resources>
