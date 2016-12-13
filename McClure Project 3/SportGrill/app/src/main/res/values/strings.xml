@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Sport Grill</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="welcomeTitle">Wild Game Cooking Guide</string>
+    <string name="aboutTitle">About the Sporting Chef</string>
+    <string name="recipiesTitle">Recipies</string>
+    <string name="calculatorTitle">Grill Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutInfo">Scott Leysath is a leading authority on the proper preparation of fish
+        and game. He is the author of two “The Sporting Chef’s Wild Game Recipes” cookbooks. He is
+        also the cooking editor of the Ducks Unlimited Magazine and writes for a number of other
+        publications like California Waterfowl Magazine, South Carolina Waterfowl Association’s
+        Waterfowl and Wetlands and Cooking Wild Magazine</string>
+    <string name="steakIngrediants">Ingredients \n
+
+2 cups dried macaroni \n
+1 1/2 cups milk (2% or whole) \n
+2 tablespoons unsalted butter \n
+2 tablespoons all-purpose flour \n
+4 ounces Gruyere cheese, grated \n
+3 ounces Parmesan, grated \n
+2 ounces mozzarella cheese, grated \n
+1 teaspoon salt\n
+1/4 teaspoon freshly ground black pepper \n
+2 cups smoked salmon, broken into 1-2 inch pieces \n
+1 cup coarse bread crumbs \n
+ tablespoons freshly chopped basil \n
+        \n
+        Instructions \n
+
+1) To season meat, combine olive oil and garlic and rub mixture over steaks. Season steaks with salt and pepper. Let rest at room temperature for 20 minutes.
+        Grill over a medium-hot barbecue grill until rare to medium-rare. Allow meat to rest for a few minutes before serving. \n
+2) To prepare sauce, heat oil over medium heat in a medium saucepan. Add onion and sauté for 2 minutes. Add pepper, balsamic vinegar, wine, broth and rosemary.
+        Bring to a boil and then simmer until liquid is reduced by one-half. Stir in mushrooms and mustard. Cook for 5 – 6 minutes.
+        Stir in cornstarch mixture and stir until sauce is thickened. If sauce gets too thick, add a little more wine or broth.
+        If it’s too thin, add a little more of the cornstarch and cold water mixture. \n
+3) To serve, arrange steaks on plates and spoon sauce over.
+    </string>
+    <string name="salmonIngrediants">Ingredients \n
+
+2 cups dried macaroni \n
+1 1/2 cups milk (2% or whole) \n
+2 tablespoons unsalted butter \n
+2 tablespoons all-purpose flour \n
+4 ounces Gruyere cheese, grated \n
+3 ounces Parmesan, grated \n
+2 ounces mozzarella cheese, grated \n
+1 teaspoon salt \n
+1/4 teaspoon freshly ground black pepper \n
+2 cups smoked salmon, broken into 1-2 inch pieces \n
+1 cup coarse bread crumbs \n
+2 tablespoons freshly chopped basil leaves \n
+        \n
+                Instructions \n
+
+1) Cook pasta in salted boiling water for 6 minutes. Drain well. \n
+2)Heat the milk in a small saucepan over medium-low heat. In another saucepan, melt the butter and whisk in the flour.
+        Cook over low heat for 2 minutes while whisking. While still whisking, add the hot milk and cook for a minute or 2 more,
+        until thickened and smooth. Remove from heat, add the cheeses, salt and pepper. Add the cooked macaroni and stir well. Gently toss with salmon. \n
+3) Transfer pasta mixture to a greased baking dish or deep baking dish (a cast iron skillet is idea).
+        Combine bread crumbs with basil and sprinkle over the top of the pasta. Place in a 400 degree preheated oven for 35 to 40 minutes or until the top is evenly browned.
+    </string>
+    <string name="burgerIngrediants">
+        Ingredients \n
+
+1 tablespoon all-purpose flour \n
+1/2 teaspoon salt \n
+1/2 teaspoon ground pepper \n
+1/2 teaspoon red pepper flakes \n
+2 cups ground goose breast fillets \n
+1/2 cup ground pork, bacon or fatty beef \n
+1/2 cup shredded cheese of your liking \n
+1/4 cup minced onion \n
+3 garlic cloves, minced \n
+1 egg, slightly beaten \n
+olive oil \n
+buns and toppings of your choice \n
+        \n
+               Instructions \n
+
+1) Combine the flour, salt, pepper and red pepper flakes. Sprinkle the mixture evenly over the ground meat and mix well. Add the cheese onion, garlic and egg. Mix well again \n
+2) Form into 4 balls and pack tightly. Press into 3/4-inch-thick-patties. lightly coat with olive oil. \n
+3) Pan sear or grill to desired temperature. Place on buns with desired toppings and condiments.
+    </string>
+    <string name="quailIngrediants">
+        Ingredients \n
+
+1 1/2 cups pheasant breast, minced \n
+1/2 cup smoky bacon, minced \n
+1/4 cup red onion, minced \n
+1 medium jalapeno pepper, seeded and minced \n
+1/4 teaspoon kosher salt \n
+pinch freshly ground black pepper \n
+1/4 teaspoon dried oregano leaves \n
+1 large egg \n
+8 quail \n
+kosher salt and pepper \n
+8 lemon slices \n
+        \n
+              Instructions \n
+
+1) Preheat oven to 350 degrees. Season the quail liberally with salt and pepper. In a blow, combine stuffing ingredients and mix well.
+        Divide the mixture in half, and then halve again, and then once more for 8 equal portions. Roll each into a ball and place one inside each quail for roasting. \n
+2) Place stuffed quail, breast side up, on a lightly greased baking sheet and place a lemon slice over each. Roast for 12 - 15 minutes, or under golden brown.
+    </string>
+    <string name="sliderTitle">Slide to adjust time</string>
+    <string name="controllerButton">START</string>
+    <string name="timerTextView">0:30</string>
+</resources>
